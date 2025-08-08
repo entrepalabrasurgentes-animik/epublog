@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EntrePalabrasUrgentes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+    tailwind.config = {
+        theme: {
+        extend: {
+            fontFamily: {
+                sans: ['Comfortaa', 'Calibri', 'sans-serif'],
+            },
+            colors: {
+                'brand-purple-dark': '#741b47',
+                'brand-purple-bright': '#9900ff',
+                'brand-pink-intense': '#ff00ff',
+                'brand-pink-pastel': '#ead1dc',
+                'brand-blue-dark': '#073763',
+                'brand-blue-text': '#1c4587',
+                'brand-gray-bg': '#999999',
+                'brand-gray-text': '#434343',
+            },
+            fontSize: {
+                '12px': '12px',
+                '14px': '14px',
+                '16px': '16px',
+                '24px': '24px',
+            },
+            lineHeight: {
+                '1.15': '1.15',
+                '1.5': '1.5',
+            }
+        },
+        },
+    }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-50">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
